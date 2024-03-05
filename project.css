@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth; 
+}
+body {
+    margin: 0;
+    font-family: Monaco, monospace;
+    background-color: #272833;
+    color: #E3D4CB;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* for bio */
+.content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.title {
+    font-size: 3rem;
+    align-items: left;
+    margin-bottom: 1rem; 
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; 
+}
+
+.bio {
+    font-size: 1rem;
+    margin-bottom: 1rem; 
+}
+
+.subheading .bio{
+    font-size: 0.9rem;
+    text-align: center;
+    max-width: 600px; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.projtitle {
+    color: #E3D4CB;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+
+/* Container for projects */
+.projectsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch; 
+    gap: 20px;
+}
+
+.projectsBox {
+    border: 2px solid #E3D4CB;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 150px; 
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between;
+    min-height: 250px; 
+}
+
+.prev:hover, .next:hover{
+    background-color: #7f82a9;
+}
+
+/* text and text highlight */
+.highlight, .highlightTwo, .highlightThree {
+    background-color: #7e80a4;
+    padding: 0.3rem;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+}
+
+.highlight:hover, .highlightTwo:hover, .highlightThree:hover {
+    background-color: #5b5fa5;
+}
+
+
+.app-image {
+    width: 60%; 
+    border-radius: 10px; 
+    margin: auto;
+    display: block;
+}
+
+/* Media query for screens */
+@media (max-width: 768px) {
+    .projtitle {
+        font-size: 1.5rem; 
+    }
+}
+
+  
+.custom-link {
+    color: #7e80a4; 
+    padding: 0.2rem;
+}
+    
+.custom-link:hover {
+    color: #5b5fa5; 
+}

@@ -1,0 +1,49 @@
+html { /* smooth scrolling, fix this later  */ 
+    scroll-behavior: smooth; 
+}
+body {
+    margin: 0;
+    font-family: Monaco, monospace;
+    background-color: #1d1e28;
+    color: #E3D4CB;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 1rem;
+}
+.title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.bio {
+    font-size: 1rem;
+    text-align: center;
+    max-width: 600px; 
+}
+.skills {
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 600px; 
+    margin-top: 2rem;
+}
+.subheading {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 600px; 
+    margin-top: 1rem;
+}
+.bghighlight {
+    font-size: 1rem;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 1rem;
+}
+
